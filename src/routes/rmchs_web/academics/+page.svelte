@@ -23,5 +23,6 @@
     {@render card("icomoon-free:lab", "Science, Technology, and Engineering Program", "ste", "")}
     {@render card("mdi:paint-outline", "Special Program in the Arts", "spa", "")}
     {@render card("charm:graduate-cap", "Senior High School", "shs", "")}
+    {@render card("mi:document", "Alternative Learning System", "als", "")}
     {@render card("mdi:brain", "Special Needs Education", "sned", "")}
 </section>
