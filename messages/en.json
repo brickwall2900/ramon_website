@@ -1,0 +1,8 @@
+{
+	"$schema": "https://inlang.com/schema/inlang-message-format",
+	"hello_world": "Hello, {name} from en!",
+	"pages.academics.ste.title": "RMCHS Science, Technology, and Engineering",
+	"pages.academics.ste.subtitle": "Program Subject Matrix",
+	"pages.academics.table.core": "Core Subjects",
+	"pages.academics.table.specialized": "Specialized Subjects"
+}

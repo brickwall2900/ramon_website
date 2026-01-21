@@ -1,0 +1,222 @@
+{
+    "ste": {
+        "7": {
+            "special1": {
+                "title": "Environmental Science",
+                "description": null,
+                "info": [null]
+            },
+            "special2": {
+                "title": "Elementary Algebra",
+                "description": null,
+                "info": [null]
+            },
+            "special3": {
+                "title": "ICT 1",
+                "description": null,
+                "info": [null]
+            }
+        },
+        "8": {
+            "special1": {
+                "title": "Biotechnology",
+                "description": null,
+                "info": [null]
+            },
+            "special2": {
+                "title": "Geometry",
+                "description": null,
+                "info": [null]
+            },
+            "special3": {
+                "title": "ICT 2",
+                "description": null,
+                "info": [null]
+            }
+        },
+        "9": {
+            "special1": {
+                "title": "Consumer Chemistry",
+                "description": null,
+                "info": [null]
+            },
+            "special2": {
+                "title": "Advanced Algebra",
+                "description": null,
+                "info": [null]
+            },
+            "special3": {
+                "title": "Research 1",
+                "description": null,
+                "info": [null]
+            }
+        },
+        "10": {
+            "special1": {
+                "title": "Electronics and Robotics",
+                "description": null,
+                "info": [null]
+            },
+            "special2": {
+                "title": "Analytic Geometry",
+                "description": null,
+                "info": [null]
+            },
+            "special3": {
+                "title": "Research 2",
+                "description": null,
+                "info": [null]
+            }
+        }
+    },
+    "common": {
+        "7": {
+            "science": {
+                "title": "Science 7",
+                "description": null,
+                "info": ["https://www.deped.gov.ph/wp-content/uploads/2019/01/Science-CG_with-tagged-sci-equipment_revised.pdf", "https://www.deped.gov.ph/wp-content/uploads/MATATAG-Science-CG-Grade-4-and-7.pdf"]
+            },
+            "math": {
+                "title": "Mathematics 7",
+                "description": null,
+                "info": ["https://depedbohol.org/v2/wp-content/uploads/2016/03/Math-CG_with-tagged-math-equipment.pdf", "https://www.deped.gov.ph/wp-content/uploads/MATATAG-Mathematics-CG-Grades1-4-and-7.pdf"]
+            },
+            "english": {
+                "title": "English 7",
+                "description": null,
+                "info": ["https://www.deped.gov.ph/wp-content/uploads/2019/01/English-CG.pdf", "https://www.deped.gov.ph/wp-content/uploads/MATATAG-ENGLISH-CG-G4-and-7.pdf"]
+            },
+            "filipino": {
+                "title": "Filipino 7",
+                "description": null,
+                "info": ["https://www.deped.gov.ph/wp-content/uploads/2019/01/Filipino-CG.pdf", "https://www.deped.gov.ph/wp-content/uploads/MATATAG-FILIPINO-CG-Grades-4-at-7-.pdf"]
+            },
+            "ap": {
+                "title": "Araling Panlipunan 7",
+                "description": null,
+                "info": ["https://www.deped.gov.ph/wp-content/uploads/2019/01/AP-CG.pdf", "https://www.deped.gov.ph/wp-content/uploads/MATATAG-Araling-Panlipunan-CG-Grade-4-and-7.pdf"]
+            },
+            "mapeh": {
+                "title": "MAPEH 7",
+                "description": null,
+                "info": ["https://depedbohol.org/v2/wp-content/uploads/2016/03/Music-CG.pdf", "https://www.deped.gov.ph/wp-content/uploads/2019/01/Arts-CG.pdf", "https://www.deped.gov.ph/wp-content/uploads/2019/01/PE-CG.pdf", "https://depedbohol.org/v2/wp-content/uploads/2016/03/Health-CG_with-tagged-math-equipment.pdf", "https://www.deped.gov.ph/wp-content/uploads/MATATAG-MUSIC-and-ARTS_CG-2023_GRADE-4-and-7.pdf", "https://www.deped.gov.ph/wp-content/uploads/PE-and-HEALTH_CG-2023_Grade-4-and-7.pdf"]
+            },
+            "esp": {
+                "title": "ESP 7",
+                "description": null,
+                "info": ["https://www.deped.gov.ph/wp-content/uploads/2019/01/ESP-CG.pdf", "https://www.deped.gov.ph/wp-content/uploads/MATATAG-GMRC-and-VE-Grades-1-4-and-7.pdf"]
+            }
+        },
+        "8": {
+            "science": {
+                "title": "Science 8",
+                "description": null,
+                "info": ["https://www.deped.gov.ph/wp-content/uploads/2019/01/Science-CG_with-tagged-sci-equipment_revised.pdf"]
+            },
+            "math": {
+                "title": "Mathematics 8",
+                "description": null,
+                "info": ["https://depedbohol.org/v2/wp-content/uploads/2016/03/Math-CG_with-tagged-math-equipment.pdf"]
+            },
+            "english": {
+                "title": "English 8",
+                "description": null,
+                "info": ["https://www.deped.gov.ph/wp-content/uploads/2019/01/English-CG.pdf"]
+            },
+            "filipino": {
+                "title": "Filipino 8",
+                "description": null,
+                "info": ["https://www.deped.gov.ph/wp-content/uploads/2019/01/Filipino-CG.pdf"]
+            },
+            "ap": {
+                "title": "Araling Panlipunan 8",
+                "description": null,
+                "info": ["https://www.deped.gov.ph/wp-content/uploads/2019/01/AP-CG.pdf"]
+            },
+            "mapeh": {
+                "title": "MAPEH 8",
+                "description": null,
+                "info": ["https://depedbohol.org/v2/wp-content/uploads/2016/03/Music-CG.pdf", "https://www.deped.gov.ph/wp-content/uploads/2019/01/Arts-CG.pdf", "https://www.deped.gov.ph/wp-content/uploads/2019/01/PE-CG.pdf", "https://depedbohol.org/v2/wp-content/uploads/2016/03/Health-CG_with-tagged-math-equipment.pdf"]
+            },
+            "esp": {
+                "title": "ESP 8",
+                "description": null,
+                "info": ["https://www.deped.gov.ph/wp-content/uploads/2019/01/ESP-CG.pdf"]
+            }
+        },
+        "9": {
+            "science": {
+                "title": "Science 9",
+                "description": null,
+                "info": ["https://www.deped.gov.ph/wp-content/uploads/2019/01/Science-CG_with-tagged-sci-equipment_revised.pdf"]
+            },
+            "math": {
+                "title": "Mathematics 9",
+                "description": null,
+                "info": ["https://depedbohol.org/v2/wp-content/uploads/2016/03/Math-CG_with-tagged-math-equipment.pdf"]
+            },
+            "english": {
+                "title": "English 9",
+                "description": null,
+                "info": ["https://www.deped.gov.ph/wp-content/uploads/2019/01/English-CG.pdf"]
+            },
+            "filipino": {
+                "title": "Filipino 9",
+                "description": null,
+                "info": ["https://www.deped.gov.ph/wp-content/uploads/2019/01/Filipino-CG.pdf"]
+            },
+            "ap": {
+                "title": "Araling Panlipunan 9",
+                "description": null,
+                "info": ["https://www.deped.gov.ph/wp-content/uploads/2019/01/AP-CG.pdf"]
+            },
+            "mapeh": {
+                "title": "MAPEH 9",
+                "description": null,
+                "info": ["https://depedbohol.org/v2/wp-content/uploads/2016/03/Music-CG.pdf", "https://www.deped.gov.ph/wp-content/uploads/2019/01/Arts-CG.pdf", "https://www.deped.gov.ph/wp-content/uploads/2019/01/PE-CG.pdf", "https://depedbohol.org/v2/wp-content/uploads/2016/03/Health-CG_with-tagged-math-equipment.pdf"]
+            },
+            "esp": {
+                "title": "ESP 9",
+                "description": null,
+                "info": ["https://www.deped.gov.ph/wp-content/uploads/2019/01/ESP-CG.pdf"]
+            }
+        },
+        "10": {
+            "science": {
+                "title": "Science 10",
+                "description": null,
+                "info": ["https://www.deped.gov.ph/wp-content/uploads/2019/01/Science-CG_with-tagged-sci-equipment_revised.pdf"]
+            },
+            "math": {
+                "title": "Mathematics 10",
+                "description": null,
+                "info": ["https://depedbohol.org/v2/wp-content/uploads/2016/03/Math-CG_with-tagged-math-equipment.pdf"]
+            },
+            "english": {
+                "title": "English 10",
+                "description": null,
+                "info": ["https://www.deped.gov.ph/wp-content/uploads/2019/01/English-CG.pdf"]
+            },
+            "filipino": {
+                "title": "Filipino 10",
+                "description": null,
+                "info": ["https://www.deped.gov.ph/wp-content/uploads/2019/01/Filipino-CG.pdf"]
+            },
+            "ap": {
+                "title": "Araling Panlipunan 10",
+                "description": null,
+                "info": ["https://www.deped.gov.ph/wp-content/uploads/2019/01/AP-CG.pdf"]
+            },
+            "mapeh": {
+                "title": "MAPEH 10",
+                "description": null,
+                "info": ["https://depedbohol.org/v2/wp-content/uploads/2016/03/Music-CG.pdf", "https://www.deped.gov.ph/wp-content/uploads/2019/01/Arts-CG.pdf", "https://www.deped.gov.ph/wp-content/uploads/2019/01/PE-CG.pdf", "https://depedbohol.org/v2/wp-content/uploads/2016/03/Health-CG_with-tagged-math-equipment.pdf"]
+            },
+            "esp": {
+                "title": "ESP 10",
+                "description": null,
+                "info": ["https://www.deped.gov.ph/wp-content/uploads/2019/01/ESP-CG.pdf"]
+            }
+        }
+    }
+}
