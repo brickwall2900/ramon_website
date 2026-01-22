@@ -104,7 +104,7 @@
                             <CarouselItem>
                                 <figure>
                                     <figcaption class="w-full top-0 left-0 my-4 text-center font-bold mix-blend-exclusion text-2xl">{item.name}</figcaption>
-                                    <enhanced:img class="max-w-3/4 max-h-3/4 mx-auto" src={asset(item.asset)} alt={item.name} />
+                                    <enhanced:img class="max-w-2/4 max-h-2/4 mx-auto" src={asset(item.asset)} alt={item.name} />
                                 </figure>
                             </CarouselItem>
                         {/each}
