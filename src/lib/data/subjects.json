@@ -71,29 +71,15 @@
     },
     "spa": {
         "7": {
-            "music": {
-                "title": "Music 7",
+            "tle": {
+                "title": "TLE 7",
                 "description": null,
                 "info": [null]
             }
         },
         "8": {
-            "music": {
-                "title": "Music 7",
-                "description": null,
-                "info": [null]
-            }
-        },
-        "9": {
-            "music": {
-                "title": "Music 7",
-                "description": null,
-                "info": [null]
-            }
-        },
-        "10": {
-            "music": {
-                "title": "Music 7",
+            "tle": {
+                "title": "TLE 8",
                 "description": null,
                 "info": [null]
             }
