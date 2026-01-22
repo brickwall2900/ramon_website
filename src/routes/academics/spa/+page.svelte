@@ -60,16 +60,11 @@
 
     <SubjectMatrix hasSpecialSubjectContainer={true} hasSpecialSubjects={true} specialSubjRenderAsOne={true}>
         <tr>
-            <td><SubjectInfo curriculum="spa" grade={7} subject="music" /></td>
-            <td><SubjectInfo curriculum="spa" grade={8} subject="music" /></td>
-            <td><SubjectInfo curriculum="spa" grade={9} subject="music" /></td>
-            <td><SubjectInfo curriculum="spa" grade={10} subject="music" /></td>
-        </tr>
-        <tr>
             <td colspan="4">
                 <p>Any one of the following:</p>
                 <ul class="ml-8 list-disc text-left">
-                    <li><p>Music</p></li>
+                    <li><p>Vocal Music</p></li>
+                    <li><p>Instrumental Music</p></li>
                     <li><p>Visual Arts</p></li>
                     <li><p>Theater Arts</p></li>
                     <li><p>Media Arts</p></li>
