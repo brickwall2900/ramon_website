@@ -31,7 +31,7 @@
                     <li><p>Cookery</p></li>
                     <li><p>Dressmaking</p></li>
                     <li><p>Massaging</p></li>
-                    <li><p>EIM</p></li>
+                    <li><p>Electrical Installation And Maintenance</p></li>
                     <li><p>Technical Drafting</p></li>
                     <li><p>Cosmetology</p></li>
                 </ul>

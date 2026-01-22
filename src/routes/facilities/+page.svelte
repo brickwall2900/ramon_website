@@ -98,6 +98,9 @@
             {/each}
         </ul>
     </Content>
+
+    <!-- spacing -->
+    <p class="mb-16"></p>
 </section>
 
 {#if selected !== null && dialogOpen}
