@@ -44,7 +44,7 @@
 	<div class="p-4"></div>
 {/if}
 
-<main class="m-4 w-full h-full">
+<main class="m-4">
 	{@render children()}
 </main>
 
