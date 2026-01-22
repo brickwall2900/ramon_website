@@ -28,6 +28,7 @@
 <p>Fast links:</p>
 <ul class="list-disc ml-8">
     <li><a href={resolve("/academics")}>/academics</a></li>
+    <li><a href={resolve("/facilities")}>/facilities</a></li>
 </ul>
 
 <p class="mb-6700"></p>
