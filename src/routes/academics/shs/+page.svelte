@@ -38,7 +38,7 @@ import type { PageProps } from './$types';
                 </ul>
             </li>
         </ul>
-        <!-- spacing -->
-        <p class="mb-2"></p>
     </Content>
+    <!-- spacing -->
+    <p class="mb-16"></p>
 </section>

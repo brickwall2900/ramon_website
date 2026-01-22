@@ -8,7 +8,7 @@
 
 </script>
 
-<h1 class="text-3xl font-bold w-full text-center underline underline-offset-12 mt-8 mb-4">Academics</h1>
+<h1 class="text-3xl font-bold w-full text-center underline underline-offset-12 my-12">Academics</h1>
 
 {#snippet card(icon: string, name: string, sublink: string, otherClass: string)}
     <article class={"border p-4 flex flex-row items-center justify-between gap-2 " + otherClass}>

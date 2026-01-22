@@ -22,18 +22,18 @@
 
     <SubjectMatrix />
 
-    <section class="flex flex-col gap-4 w-full mt-4">
-        <Content title={"Enrollment"}>
-            <p>Applicants can proceed with enrollment by submitting the following documents onsite:</p>
-            <ul class="ml-8 list-disc">
-                <li><p>Duly accomplished Basic Education Enrollment Form</p></li>
-                <li>
-                    <p>Certified True Copy of School Form 9 (formerly Form 138-E), covering:</p>
-                    <ul class="ml-8">
-                        <li><p>→ Grade 10 (First to Fourth Quarter)</p></li>
-                    </ul>
-                </li>
-            </ul>
-        </Content>
-    </section>
+    <Content title={"Enrollment"}>
+        <p>Applicants can proceed with enrollment by submitting the following documents onsite:</p>
+        <ul class="ml-8 list-disc">
+            <li><p>Duly accomplished Basic Education Enrollment Form</p></li>
+            <li>
+                <p>Certified True Copy of School Form 9 (formerly Form 138-E), covering:</p>
+                <ul class="ml-8">
+                    <li><p>→ Grade 10 (First to Fourth Quarter)</p></li>
+                </ul>
+            </li>
+        </ul>
+    </Content>
+    <!-- spacing -->
+    <p class="mb-16"></p>
 </section>

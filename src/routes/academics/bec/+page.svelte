@@ -38,20 +38,18 @@ import SubjectMatrix from "$lib/components/SubjectMatrix.svelte";
         </tr>
     </SubjectMatrix>
 
-    <section class="flex flex-col gap-4 w-full mt-4">
-        <Content title={"Enrollment"}>
-            <p>Qualified applicants can proceed with enrollment by submitting the following documents onsite:</p>
-            <ul class="ml-8 list-disc">
-                <li><p>Duly accomplished Basic Education Enrollment Form</p></li>
-                <li>
-                    <p>Certified True Copy of School Form 9 (formerly Form 138-E), covering:</p>
-                    <ul class="ml-8">
-                        <li><p>→ Grade 6 (First to Fourth Quarter)</p></li>
-                    </ul>
-                </li>
-            </ul>
-            <!-- spacing -->
-            <p class="mb-2"></p>
-        </Content>
-    </section>
+    <Content title={"Enrollment"}>
+        <p>Qualified applicants can proceed with enrollment by submitting the following documents onsite:</p>
+        <ul class="ml-8 list-disc">
+            <li><p>Duly accomplished Basic Education Enrollment Form</p></li>
+            <li>
+                <p>Certified True Copy of School Form 9 (formerly Form 138-E), covering:</p>
+                <ul class="ml-8">
+                    <li><p>→ Grade 6 (First to Fourth Quarter)</p></li>
+                </ul>
+            </li>
+        </ul>
+    </Content>
+    <!-- spacing -->
+    <p class="mb-16"></p>
 </section>
