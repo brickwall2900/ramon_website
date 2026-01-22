@@ -83,15 +83,15 @@
             class={"text-2xl hover:underline hover:font-bold cursor-pointer w-full hover:brightness-125 hover:contrast-125 duration-150 transition-all"}
             onclick={() => onSelect(facility)}>
             <enhanced:img class="object-contain xl:size-full size-2/3 m-auto" src={asset(`/assets/facilities/${facility}/cover.png`)}  alt={facilityInfo?.name} />
-            <p class="my-6">{facilityInfo?.name}</p>
-            <p class="text-sm no-underline font-normal">{facilityInfo?.description} <a href={MAP_LINK}>View map.</a></p>
+            <p class="my-6">{facilityInfo?.name}</p>    
         </button>
+        <p class="text-sm no-underline font-normal text-justify">{facilityInfo?.description} <a href={MAP_LINK}>View map.</a></p>
     </li>
 {/snippet}
 
 <section class="max-w-10/12 mx-auto gap-4">
-    <Content className="size-full" centerHeader hasTopMargin={false} hasTitle={}>
-        <ul class="grid xl:grid-cols-4 xl:grid-rows-2 grid-rows-8 grid-flow-col gap-6 mt-6">
+    <Content className="size-full" centerHeader hasTopMargin={false} hasTitle={false}>
+        <ul class="grid xl:grid-cols-4 xl:grid-rows-2 grid-rows-8 grid-flow-col gap-6">
             {#each getFacilities() as facility}
                 {@render facilityItem(facility, getFacilityInfo(facility))}
             {/each}
