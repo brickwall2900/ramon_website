@@ -148,6 +148,18 @@
                 "name": "Quadrangle"
             },
             {
+                "asset": "/assets/facilities/Main/registrars_office.PNG",
+                "name": "Registrar's Office"
+            },
+            {
+                "asset": "/assets/facilities/Main/sslg_office.PNG",
+                "name": "SSLG Office" 
+            },
+            {
+                "asset": "/assets/facilities/Main/staff_room.PNG",
+                "name": "Staff Room"
+            },
+            {
                 "asset": "/assets/facilities/Main/random_1.PNG",
                 "name": ""
             },
@@ -170,18 +182,6 @@
             {
                 "asset": "/assets/facilities/Main/random_6.PNG",
                 "name": ""
-            },
-            {
-                "asset": "/assets/facilities/Main/registrars_office.PNG",
-                "name": "Registrar's Office"
-            },
-            {
-                "asset": "/assets/facilities/Main/sslg_office.PNG",
-                "name": "SSLG Office" 
-            },
-            {
-                "asset": "/assets/facilities/Main/staff_room.PNG",
-                "name": "Staff Room"
             }
         ],
         "name": "Main",
