@@ -10,7 +10,8 @@ export interface FacilityPlaceImage {
 export interface FacilityInfo {
     imgPaths: Array<FacilityPlaceImage>,
     name: string,
-    facilityId: string
+    facilityId: string,
+    description: string
 }
 
 export type Facilities = Array<FacilityInfo>;

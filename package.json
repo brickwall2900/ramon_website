@@ -54,6 +54,7 @@
 		"dompurify": "^3.3.1",
 		"embla-carousel-autoplay": "^8.6.0",
 		"marked": "^17.0.1",
-		"svelte-image-viewer": "^6.0.0"
+		"svelte-image-viewer": "^6.0.0",
+		"svelte-portal": "^2.2.1"
 	}
 }

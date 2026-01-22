@@ -5,7 +5,7 @@
 
 </script>
 
-<dialog class="fixed w-full h-full mx-auto my-auto inset-0 bg-black/70 flex items-center justify-center z-50">
+<dialog class="fixed w-full h-full mx-auto my-auto inset-0 bg-black/70 flex items-center justify-center z-50" popover="auto">
     <div class="relative w-full h-full flex items-center justify-center p-2">
         <p class="absolute w-full top-1 text-center text-white mix-blend-exclusion p-2 z-20">You're in an image viewer. Drag to pan the image around, pinch or mouse wheel to scroll.</p>
         <Viewer>

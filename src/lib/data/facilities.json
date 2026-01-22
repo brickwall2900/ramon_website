@@ -11,7 +11,7 @@
             },
             {
                 "asset": "/assets/facilities/RM/Mabuhay__81_Wellness_Training_Center.png",
-                "name": "Mabuhay 81 Wellness Training Center"
+                "name": "Mabuhay '81 Wellness Training Center"
             },
             {
                 "asset": "/assets/facilities/RM/Nail_Art_Room.PNG",
@@ -23,7 +23,8 @@
             }
         ],
         "name": "RM",
-        "facilityId": "RM"
+        "facilityId": "RM",
+        "description": "A three-storey building that is best known for its electrical installation and maintenance (EIM) room, technical drafting room, nail art room, and Mabuhay '81 Wellness Training Center."
     },
     {
         "imgPaths": [
@@ -33,7 +34,8 @@
             }
         ],
         "name": "Mathay",
-        "facilityId": "Mathay"
+        "facilityId": "Mathay",
+        "description": "A four-storey building that is best known as the location of the HOPE Center, a state-of-the-art ICT laboratory."
     },
     {
         "imgPaths": [
@@ -43,7 +45,8 @@
             }
         ],
         "name": "Old Belmonte",
-        "facilityId": "Old_Belmonte"
+        "facilityId": "Old_Belmonte",
+        "description": "A three-storey building that currently houses the SNED Department and 14 classrooms."
     },
     {
         "imgPaths": [
@@ -61,7 +64,8 @@
             }
         ],
         "name": "YECS",
-        "facilityId": "YECS"
+        "facilityId": "YECS",
+        "description": "A two-storey building best known as the location of the Alternative Learning System (ALS Room), Scouting Office, and the Special Program in the Arts (SPA) Theater Arts Room."
     },
     {
         "imgPaths": [
@@ -75,7 +79,8 @@
             }
         ],
         "name": "Home Economics",
-        "facilityId": "Home_Economics"
+        "facilityId": "Home_Economics",
+        "description": "A three-storey building especially dedicated to house the cookery and dressmaking classrooms."
     },
     {
         "imgPaths": [
@@ -185,7 +190,8 @@
             }
         ],
         "name": "Main",
-        "facilityId": "Main"
+        "facilityId": "Main",
+        "description": "As the oldest and the largest building at RMCHS, this three-storey building houses both administrative and educational facilities."
     },
     {
         "imgPaths": [
@@ -199,7 +205,8 @@
             }
         ],
         "name": "Legacy",
-        "facilityId": "Legacy"
+        "facilityId": "Legacy",
+        "description": "A three-storey building best known as the location of the Legacy Room and the Physics Laboratory."
     },
     {
         "imgPaths": [
@@ -209,6 +216,7 @@
             }
         ],
         "name": "New Sonny Belmonte",
-        "facilityId": "New_Sonny_Belmonte"
+        "facilityId": "New_Sonny_Belmonte",
+        "description": "A four-storey building that is especially dedicated to the mathematics and sciences, best known as the location of science laboratories at RMCHS."
     }
 ]

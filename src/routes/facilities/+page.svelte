@@ -16,6 +16,7 @@
 	import PaginationPrevious from "$lib/components/shadcn/ui/pagination/pagination-previous.svelte";
 	import Pagination from "$lib/components/shadcn/ui/pagination/pagination.svelte";
 	import ModalDialog from '$lib/components/ModalDialog.svelte';
+	import Image from '$lib/components/Image.svelte';
 
     let { data }: PageProps = $props();
 
@@ -23,10 +24,13 @@
     let facilityInfo = $derived(selected !== undefined ? getFacilityInfo(selected) : undefined);
     let dialogOpen = $state(false);
 
+    const MAP_LINK = "https://drive.google.com/file/d/1TXb3EtRgCEog-W7gfewVFnGBDWYvpg0n/view";
+
     let api = $state<CarouselAPI>();
     let count = $derived(api ? api.scrollSnapList().length : 0);
     let current = $state(0);
     let page = $state(1);
+    let imageViewerContent = $state<HTMLElement | undefined>(undefined);
 
     const autoplay = Autoplay(
         {
@@ -73,26 +77,28 @@
 
 <h1 class="text-3xl font-bold w-full text-center underline underline-offset-12 my-12">Facilities</h1>
 
+{#snippet facilityItem(facility: string, facilityInfo: FacilityInfo | undefined)}
+    <li>
+        <button 
+            class={"text-2xl hover:underline hover:font-bold cursor-pointer w-full hover:brightness-125 hover:contrast-125 duration-150 transition-all"}
+            onclick={() => onSelect(facility)}>
+            <enhanced:img class="object-contain xl:size-full size-2/3 m-auto" src={asset(`/assets/facilities/${facility}/cover.png`)}  alt={facilityInfo?.name} />
+            <p class="my-6">{facilityInfo?.name}</p>
+            <p class="text-sm no-underline font-normal">{facilityInfo?.description} <a href={MAP_LINK}>View map.</a></p>
+        </button>
+    </li>
+{/snippet}
+
 <section class="max-w-10/12 mx-auto gap-4">
     <Content className="size-full" title="Explore" centerHeader hasTopMargin={false}>
-        <ul class="grid grid-cols-4 grid-rows-2 grid-flow-col gap-4 mt-6">
+        <p class="w-full text-center">Ramon Magsaysay (Cubao) High School has a total of eight buildings, where quality education takes place. <a href={MAP_LINK}>View map.</a></p>
+        <ul class="grid xl:grid-cols-4 xl:grid-rows-2 grid-rows-8 grid-flow-col gap-6 mt-6">
             {#each getFacilities() as facility}
                 {@render facilityItem(facility, getFacilityInfo(facility))}
             {/each}
         </ul>
     </Content>
 </section>
-
-{#snippet facilityItem(facility: string, facilityInfo: FacilityInfo | undefined)}
-    <li>
-        <button 
-            class={"text-2xl hover:underline hover:font-bold cursor-pointer border w-full hover:brightness-125 hover:contrast-125 duration-150 transition-all"}
-            onclick={() => onSelect(facility)}>
-            <enhanced:img class="object-contain" src={asset(`/assets/facilities/${facility}/cover.png`)}  alt={facilityInfo?.name} />
-            <p class="my-6">{facilityInfo?.name}</p>
-        </button>
-    </li>
-{/snippet}
 
 {#if selected !== null && dialogOpen}
     <ModalDialog closeDialog={closeDialog} title={facilityInfo?.name}>
@@ -104,7 +110,7 @@
                             <CarouselItem>
                                 <figure>
                                     <figcaption class="w-full top-0 left-0 my-4 text-center font-bold mix-blend-exclusion text-2xl">{item.name}</figcaption>
-                                    <enhanced:img class="max-w-2/4 max-h-2/4 mx-auto" src={asset(item.asset)} alt={item.name} />
+                                    <Image popupContainer={imageViewerContent} class="max-w-3/4 max-h-3/4 mx-auto" src={asset(item.asset)} alt={item.name} />
                                 </figure>
                             </CarouselItem>
                         {/each}
@@ -139,3 +145,7 @@
         </section>
     </ModalDialog>
 {/if}
+
+<div bind:this={imageViewerContent}>
+
+</div>

@@ -1,7 +1,8 @@
 <script lang="ts">
     import ImageViewer from "./ImageViewer.svelte";
+    import Portal from "svelte-portal";
 
-    let { src, alt, ...others } = $props();
+    let { src, alt, popupContainer = undefined, ...others } = $props();
     let isOpen = $state(false);
 
     function onImageClicked() {
@@ -16,5 +17,11 @@
 <enhanced:img src={src} alt={alt} {...others} onclick={onImageClicked} />
 
 {#if isOpen}
-    <ImageViewer src={src} alt={alt} closePopup={closeTheDamnPopup} {...others} />
+    {#if popupContainer !== undefined}
+        <Portal target={popupContainer}>
+            <ImageViewer src={src} alt={alt} closePopup={closeTheDamnPopup} {...others} />
+        </Portal>
+    {:else}
+        <ImageViewer src={src} alt={alt} closePopup={closeTheDamnPopup} {...others} />
+    {/if}
 {/if}
