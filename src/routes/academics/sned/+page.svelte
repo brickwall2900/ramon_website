@@ -35,10 +35,11 @@
                 <ul class="ml-8 list-disc text-left">
                     <li><p>Cookery</p></li>
                     <li><p>Dressmaking</p></li>
-                    <li><p>Massaging</p></li>
-                    <li><p>Electrical Installation And Maintenance</p></li>
+                    <li><p>Wellness Massage</p></li>
+                    <li><p>Electrical installation and maintenance</p></li>
+                    <li><p>Information and communication technology</p></li>
                     <li><p>Technical Drafting</p></li>
-                    <li><p>Cosmetology</p></li>
+                    <li><p>Beauty Care</p></li>
                 </ul>
             </td>
         </tr>
