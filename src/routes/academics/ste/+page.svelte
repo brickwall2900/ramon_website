@@ -101,6 +101,4 @@
             </ul>
         </Content>
     </section>
-    <!-- spacing -->
-    <p class="mb-16"></p>
 </section>

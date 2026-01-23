@@ -18,3 +18,10 @@
 </header>
 
 {@render children()}
+
+<footer>
+    <p class="w-full text-center text-sm my-4">This may be subject to change without prior notice!</p>
+</footer>
+
+<!-- spacing -->
+<p class="mb-16"></p>

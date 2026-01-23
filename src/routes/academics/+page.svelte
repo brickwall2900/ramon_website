@@ -28,6 +28,3 @@
     {@render card("mi:document", "Alternative Learning System", "als", "")}
     {@render card("mdi:brain", "Special Needs Education", "sned", "")}
 </section>
-
-<!-- spacing -->
-<p class="mb-16"></p>
