@@ -13,7 +13,7 @@
     <a href="https://example.com">Ramon Magsaysay (Cubao) High School</a> website. 
 </p>
 
-<a href={resolve("/admin")}>For more information, please visit this link.</a>
+<p>For more information, please visit <a href={resolve("/admin")}>this link.</a></p>
 
 <br>
 
@@ -22,6 +22,9 @@
     <li><a href={resolve("/academics")}>/academics</a></li>
     <li><a href={resolve("/facilities")}>/facilities</a></li>
 </ul>
+
+<br>
+<p><strong>Last updated: January 23, 2026</strong></p>
 
 <p class="mb-6700"></p>
 <h1 class="font-bold text-xl">six seven</h1>
