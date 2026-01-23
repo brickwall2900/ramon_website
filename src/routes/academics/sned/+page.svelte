@@ -36,8 +36,8 @@
                     <li><p>Cookery</p></li>
                     <li><p>Dressmaking</p></li>
                     <li><p>Wellness Massage</p></li>
-                    <li><p>Electrical installation and maintenance</p></li>
-                    <li><p>Information and communication technology</p></li>
+                    <li><p>Electrical Installation and Maintenance</p></li>
+                    <li><p>Information and Communications Technology</p></li>
                     <li><p>Technical Drafting</p></li>
                     <li><p>Beauty Care</p></li>
                 </ul>
