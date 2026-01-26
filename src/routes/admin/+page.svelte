@@ -21,5 +21,4 @@
 <p>
     This website and its source code are currently being hosted at the 
     <a href="https://github.com/rmchs">RMCHS Github account.</a>
-    Feel free to contribute!
 </p>
