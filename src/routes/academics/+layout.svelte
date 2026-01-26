@@ -12,7 +12,7 @@
 <header class="fixed top-4 left-4 w-full">
     <SetOfLinks links={
         [
-            { icon: "ep:back", href: "https://sites.google.com/depedqc.ph/rmchs/home?authuser=0", isUrl: true, title: "Back to RMCHS Website" },
+            { icon: "ep:back", href: "https://sites.google.com/depedqc.ph/rmchs/home", isUrl: true, title: "Back to RMCHS Website" },
             { icon: "charm:graduate-cap", href: "/academics", isUrl: false, title: "List of Academics" }
         ]} />
 </header>
