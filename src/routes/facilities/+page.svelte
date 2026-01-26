@@ -82,7 +82,7 @@
         <button 
             class={"text-2xl hover:underline hover:font-bold cursor-pointer w-full hover:brightness-125 hover:contrast-125 duration-150 transition-all"}
             onclick={() => onSelect(facility)}>
-            <enhanced:img class="object-contain xl:size-full size-2/3 m-auto" src={asset(`/assets/facilities/${facility}/cover.png`)}  alt={facilityInfo?.name} />
+            <enhanced:img class="object-contain xl:size-full size-2/3 m-auto cursor-pointer" src={asset(`/assets/facilities/${facility}/cover.png`)}  alt={facilityInfo?.name} />
             <p class="my-6">{facilityInfo?.name}</p>    
         </button>
         <p class="text-sm no-underline font-normal text-justify">{facilityInfo?.description} <a href={MAP_LINK} target="_blank">View map.</a></p>
@@ -112,7 +112,7 @@
                             <CarouselItem>
                                 <figure>
                                     <figcaption class="w-full top-0 left-0 lg:my-4 my-2 text-center font-bold mix-blend-exclusion lg:text-2xl text-sm">{item.name}</figcaption>
-                                    <Image popupContainer={imageViewerContent} class="max-w-3/4 max-h-3/4 mx-auto" src={asset(item.asset)} alt={item.name} />
+                                    <Image popupContainer={imageViewerContent} class="max-w-3/4 max-h-3/4 mx-auto cursor-pointer" src={asset(item.asset)} alt={item.name} />
                                 </figure>
                             </CarouselItem>
                         {/each}
